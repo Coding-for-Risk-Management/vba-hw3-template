@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "BondPrice Test",
+      "setup": "",
+      "run": "powershell -ExecutionPolicy Bypass -File excel-testing.ps1 -MacroName test_PriceBond",
+      "input": "",
+      "output": "",
+      "timeout": 120,
+      "points": 5
+    },
+    {
+      "name": "BondDuration Test",
+      "setup": "",
+      "run": "powershell -ExecutionPolicy Bypass -File excel-testing.ps1 -MacroName test_getBondDuration",
+      "input": "",
+      "output": "",
+      "timeout": 120,
+      "points": 5
+    }
+  ]
+}
